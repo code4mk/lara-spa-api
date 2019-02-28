@@ -95,7 +95,7 @@ class Handler extends ExceptionHandler
 }
 ```
 
-# axios | guzzle header
+# axios | guzzle `header`
 
 you can change header name `Authorization` to `Anything` in `lsapi` config file.
 

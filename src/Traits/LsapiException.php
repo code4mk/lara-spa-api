@@ -1,5 +1,13 @@
 <?php
+
 namespace LSAPI\Traits;
+
+/**
+* @author    @code4mk <hiremostafa@gmail.com>
+* @author    @0devco <with@0dev.co>
+* @since     2019
+* @copyright 0dev.co (https://0dev.co)
+*/
 
 trait LsapiException
 {
