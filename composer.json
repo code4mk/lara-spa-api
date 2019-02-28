@@ -1,0 +1,43 @@
+{
+  "name": "code4mk/lara-spa-api",
+  "description": "Laravel SPA API system setup easily with lara-spa-api",
+  "keywords": [
+    "laravel",
+    "spa",
+    "spa-api",
+    "laravel-spa-api",
+    "code4mk",
+    "0devco",
+    "api",
+  ],
+  "homepage": "https://github.com/code4mk/lara-spa-api",
+  "support": {
+    "issues": "https://github.com/code4mk/lara-spa-api/issues",
+    "source": "https://github.com/code4mk/lara-spa-api"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "code4mk",
+      "email": "hiremostafa@gmail.com",
+      "website": "https://code4mk.org"
+    }
+  ],
+  "require": {
+    "firebase/php-jwt": "^5.0",
+  },
+  "autoload": {
+    "psr-4": {
+      "LSAPI\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+        "providers": [
+            "LSAPI\\LSAPIServiceProvider"
+        ]
+    }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev",
+}
